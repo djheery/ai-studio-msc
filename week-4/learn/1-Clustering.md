@@ -30,3 +30,5 @@ For example, in a cafe, some people enjoy tea with cakes, while others may frequ
 Therefore, it is important to cluster them into representative groups for more focused marketing services. 
 
 ## Reccomendation Systems 
+
+Reccomendation Systems often use a clustering algorithm. You can view systems in use on sites such as news sites and netflix. This operates by finding market segments and similar preferences amongst users. Then reccomendeding content that other users of a particular segment liked.
