@@ -53,4 +53,21 @@ These layers will then feed forward to the neurons on the next layer in the same
 
 ## Output Layer 
 
-The output layer of an ANN 
+The output layer of an ANN is the last layer of a Neural network responsible for generating the final value or vector of values. 
+
+The choice of activation function in the output layer is strongly constrained by the type of problem that you are modelling. 
+
+For example: 
+
+- Regression 
+  - You have a single output neuron and the neuron may have a 'linear' activation function 
+- Binary Classification 
+  - You have a single output neuron and use a 'sigmoid' activation functionto output a value between 0 adn 1.
+    - This represents the probability of predictinga value for the class 1. 
+    - In practice this will beb turned into a crisp class value by using a threshold of 0.5 and snap values less to 0 and more to 1. 
+- Multi Class Classification 
+  - There will be multiple neurons on the output layer, one for each class. 
+    - If there are 4 classes, there will be 4 neurons
+  - A softmax activation function may be used to output a probility of the network predicting each of the class values. 
+  - Selecting the output with the highest probability can be used to produce a crisp class value. 
+  - The softmax function is simply a unit-normalized sigmoid function. 
